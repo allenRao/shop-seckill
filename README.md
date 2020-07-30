@@ -6,5 +6,6 @@ feature 666 does box. others do sm.
 
 allen do another day 
 
-another dollar
+another day
+
 

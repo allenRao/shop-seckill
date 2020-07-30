@@ -1,0 +1,4 @@
+singleServerConfig:
+  address: "redis://192.168.2.103:16379"
+
+codec: !<com.allen.shop.seckill.util.ExtendedJsonJacksonMapCodec> {}# yaml 自定义类型

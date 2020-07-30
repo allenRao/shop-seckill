@@ -1,0 +1,32 @@
+server:
+  port: 8003
+spring:
+  application:
+    name: shop-seckill
+# rabbitmq
+  rabbitmq:
+    host: 192.168.2.103
+    virtual-host: /
+    port: 5672
+    username: guest
+    password: guest 
+    cache:
+      connection:
+        mode: channel
+      channel:
+        size: 25 
+    # producer 配置
+    publisher-confirm-type: correlated
+    publisher-returns: true
+    template:
+      mandatory: true
+      retry:
+        enabled: true
+        max-attempts: 3
+      exchange: seckill-exchange # 默认exchange
+      #routing-key: seckill.delay      # 默认routng key    
+
+# redis
+  redis:
+    redisson:
+      config: classpath:/redisson-config.yaml

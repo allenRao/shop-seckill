@@ -2,7 +2,7 @@
 秒杀项目demo
 dev branch
 
-feature 666 do something. others do sm.
+feature 666 does box. others do sm.
 
-allen do another day
+allen do another day 
 

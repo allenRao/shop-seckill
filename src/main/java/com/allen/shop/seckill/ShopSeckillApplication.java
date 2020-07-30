@@ -12,6 +12,7 @@ public class ShopSeckillApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ShopSeckillApplication.class, args);
+// bug fix
 	}
 
 }

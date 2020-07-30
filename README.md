@@ -2,5 +2,5 @@
 秒杀项目demo
 dev branch
 
-feature 666 do something
+feature 666 do something. others do sm.
 

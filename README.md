@@ -6,3 +6,5 @@ feature 666 do something. others do sm.
 
 allen do another day
 
+another dollar
+
